@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         editText1= (EditText) findViewById(R.id.editText1);
         editText2=(EditText) findViewById(R.id.editText2);
         result= (TextView) findViewById(R.id.resultText);
+        //github learning
+        //github learning
 
     }
 
@@ -36,7 +38,10 @@ public class MainActivity extends AppCompatActivity {
         int b=Integer.parseInt(editText2.getText().toString());
         int resultInt=a-b;
         result.setText("Result:"+resultInt);
-        }
+        //github learning2
+
+
+    }
 
     public void multiple(View View){
         int a=Integer.parseInt(editText1.getText().toString());
